@@ -5,9 +5,14 @@ body {
 }
 
 .top-container {
-  background-color: #eeeeee;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #EAF6F6;
+  color: #40514E;
 }
 
 a {
@@ -29,6 +34,13 @@ h2 {
 
 h3 {
   color: #384259;
+}
+
+hr {
+  border:dotted #384259 6px;
+  width: 1.875rem;
+  border-bottom: none;
+  margin: 6.2rem auto 6.25rem;
 }
 
 .underline {
@@ -58,13 +70,65 @@ h3 {
   width: 50%;
 }
 
+.my-skill-h2 {
+  color: #66BFBF;
+}
+
 .java-img {
   /*    MOVE IMAGE TO THE CENTER
   display: block;
   margin: 0 auto; */
+  float: left;
+  margin-right: 1.875rem;
   width: 25%;
 }
 
 .python-img {
+  float: right;
+  margin-left: 1.875rem;
   width: 25%;
+}
+
+.skill-para {
+  overflow: hidden;
+}
+
+.btn {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: "Helvetica Neue";
+   font-size: 30px;
+   font-weight: 100;
+   padding: 17px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
