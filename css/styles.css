@@ -1,0 +1,70 @@
+body {
+  background-color: #ff5722;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #eeeeee;
+  position: relative;
+  padding-top: 100px;
+}
+
+a {
+  color: #eeeeee;
+}
+
+h1 {
+  color: #303841;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #303841;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #384259;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.sub-programmer {
+  font-weight: normal;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: left;
+  width: 50%;
+}
+
+.java-img {
+  /*    MOVE IMAGE TO THE CENTER
+  display: block;
+  margin: 0 auto; */
+  width: 25%;
+}
+
+.python-img {
+  width: 25%;
+}
